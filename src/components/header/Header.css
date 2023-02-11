@@ -1,0 +1,130 @@
+.header {
+    overflow: hidden;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+
+a>span {
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a>span:hover {
+    color: rgb(149, 0, 255);
+}
+
+.header .logo .header__icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.header-right {
+    float: right;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 12px;
+    margin: 12px;
+    text-decoration: none;
+}
+
+.navbar a .bx{
+    font-size: 35px;
+    font-weight: 900;
+    color: #ffffff;
+
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 12px;
+    margin: 12px;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(162, 0, 255);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(162, 0, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 12px;
+}
+
+.dropdown-content a {
+    float: none;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #02fef4;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+@media screen and (min-width: 500px) {
+    .header-right .menu{
+        display: none;
+    }
+    .navbar .creen-manage{
+        display: none !important;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .header-right{
+        margin-top: -60px;
+    }
+    .header-right .menu{
+        float: right;
+    }
+    .navbar .screen-manage{
+        margin-top: 60px;
+    }
+    .header-right:hover .navbar{
+        height: auto;
+    }
+    .navbar{
+        height: 60px;
+    }
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}

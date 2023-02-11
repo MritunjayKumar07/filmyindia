@@ -1,0 +1,22 @@
+.movie__list {
+    height: auto;
+}
+
+.list__title {
+    font-size: 1.75rem;
+    margin:  0 1rem;
+}
+
+.list__cards {
+    display: flex;
+    overflow-x: auto;
+}
+
+.list__cards::-webkit-scrollbar {
+    display: none;
+}
+
+.list__cards {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
