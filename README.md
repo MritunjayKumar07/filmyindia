@@ -4,6 +4,3 @@ This project was Reactjs with filmyindia Reactjs when yo visit this link first c
 but one more link use to show accourate  https://sprightly-kataifi-ab0e54.netlify.app/ 
 
 
-
-
-website https://mritunjaykumarstudent.github.io/filmyindia/
