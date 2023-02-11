@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/filmyindia/static/css/main.f4413955.css",
+    "main.js": "/filmyindia/static/js/main.0ecad973.js",
+    "static/media/logo.png": "/filmyindia/static/media/logo.525c9672b29461ded5e9.png",
+    "index.html": "/filmyindia/index.html",
+    "main.f4413955.css.map": "/filmyindia/static/css/main.f4413955.css.map",
+    "main.0ecad973.js.map": "/filmyindia/static/js/main.0ecad973.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4413955.css",
+    "static/js/main.0ecad973.js"
+  ]
+}
